@@ -5,24 +5,24 @@
     z-index: -1;
   }
   .title{
-    font-size: 13px;
+    font-size: 18px;
     color: whitesmoke;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
     position: absolute;
     z-index: 4; /* Mettre un z-index plus élevé que les layers */
-    bottom: 96%;
-    left: 42%;
+    bottom: 94%;
+    left: 35%;
   }
   .sub-title{
     color: whitesmoke;
     font-family: 'Oswald', sans-serif;
-    font-size: 8px;
+    font-size: 10px;
     letter-spacing: 2px;
     position: absolute;
     z-index: 4; /* Mettre un z-index plus élevé que les layers */
-    bottom: 92%;
-    left: 21%;
+    bottom: 90%;
+    left: 9%;
 }
   .title-about-me {
     margin: 0;
