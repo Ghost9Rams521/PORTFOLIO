@@ -5,26 +5,39 @@
     z-index: -1;
   }
   .title{
-    font-size: 18px;
+    font-size: 5vw; 
     color: whitesmoke;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
     position: absolute;
-    z-index: 4; /* Mettre un z-index plus élevé que les layers */
+    z-index: 1; /* Mettre un z-index plus élevé que les layers*/
     bottom: 94%;
     left: 35%;
   }
   .sub-title{
     color: whitesmoke;
     font-family: 'Oswald', sans-serif;
-    font-size: 10px;
+    font-size: 2vw; 
     letter-spacing: 2px;
     position: absolute;
-    z-index: 4; /* Mettre un z-index plus élevé que les layers */
-    bottom: 90%;
-    left: 9%;
+    z-index: 1; /* Mettre un z-index plus élevé que les layers */
+    left: 14%;
+    top:  23%;
 }
   .title-about-me {
     margin: 0;
+    font-size: 1.5vw;
+
+  }
+  .title-about-me{
+    font-size: 1.5vw;
+  }
+  .content-about-me{
+    font-size: 2vw;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 4%; 
+    line-height: 2em;
+    margin-left: 3%;
+    margin-right: 3%;
   }
 } 
