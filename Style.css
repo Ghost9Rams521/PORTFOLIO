@@ -14,7 +14,7 @@ body {
 .title{
     color: whitesmoke;
     font-family: 'Oswald', sans-serif;
-    font-size: 46px;
+    font-size: 50px;
     letter-spacing: 5px;
     position: absolute;
     z-index: 4; /* Mettre un z-index plus élevé que les layers */
