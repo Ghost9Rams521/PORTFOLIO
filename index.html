@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap" rel="stylesheet">
+    <title>PortFolio</title>
+</head>
+<body>
+    <header>
+        <video class="video-header" width="100%" autoplay loop muted>  
+        <source src="nature-1-5.mp4" type="video/mp4"></video>
+    </header>
+
+    <h1 class="title">TROUDI RAMY</h1>
+    <h3 class="sub-title">A la découverte du monde en passant par soi !!!</h3>
+
+    <!-- Section a propose de moi -->
+
+    <div class="layer-about-me">
+        <div class="title-about-me"><h1><u>A PROPOS DE MOI !!!</u></h1></div>
+        <div class="content-about-me"><h3>ㅤㅤㅤㅤJe suis actuellement étudiant à GEII à l'université de bordeaux en 1er année, voulant me spécialisé vers l'Automatisme qui met en valeur les compétences d'électronique et d'Informatique. Etant mes deux domaines qui me passionne le plus. Vous me découvrirez a travers ce PortFolio qui va aborder mes projets et mes compétences.</h3></div>
+    </div>
+
+    <!-- Section sur mes projet -->
+
+    <div class="layer-project">
+        <div class="project"><h1><u>MES PROJETS</u></h1></div>
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">   
+                <img src="img-slide3.png" alt="Image 1">
+                <a href="projet.html" target= _blank><img src="img-slide2.png" alt="Image 2"></a>
+                <img src="maquette-1.jpg" alt="Image 3">
+            </div>
+            <div class="arrow left" onclick="prevImage()">←</div>
+            <div class="arrow right" onclick="nextImage()">→</div>
+            <div class="carousel-indicators" id="indicators"></div>
+        </div>
+    </div>
+
+
+    <!-- Section sur le contact -->
+
+    <div class="layer-contact">
+        <div class="contact"><h1><u>CONTACT</u></h1></div>
+            <div class="partie1-contact">
+                <div class="email"><h3 class="tittle-email">📧 : ramytroudi@gmail.com</h3></div>
+                <div class="number"><h3 class="tittle-number">📞 :  06 40 59 40 58</h3></div>
+                <div class="linkedin"><h3 class="title-linkedin">LINKEDIN : TROUDI RAMY</h3></div>
+            </div>
+            <hr class="separation-top" COLOR="BLACK">
+            <hr class="separation-bottom" COLOR="BLACK">
+            <div class="partie2-contact">
+                <div class="cv"><a href="CV.pdf" download="CV-RAMY-TROUDI.pdf" target="_BLANK" ><h3 class="tittle-cv">Télécharger mon CV</h3></a></div>
+            </div>
+    </div>
+
+
+    <!-- Section sur mes droits -->
+
+    <div class="right"><center><h4>© 2024  TROUDI  Portfolio </h4></center></div>
+
+    <script src="app.js"></script>
+    <script src="app-2.js"></script>
+</body>
+</html>
