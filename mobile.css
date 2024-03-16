@@ -17,12 +17,12 @@
   .sub-title{
     color: whitesmoke;
     font-family: 'Oswald', sans-serif;
-    font-size: 5px;
+    font-size: 8px;
     letter-spacing: 2px;
     position: absolute;
     z-index: 4; /* Mettre un z-index plus élevé que les layers */
-    bottom: 58%;
-    left: 24%;
+    bottom: 92%;
+    left: 21%;
 }
   .title-about-me {
     margin: 0;
