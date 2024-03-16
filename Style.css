@@ -18,7 +18,7 @@ body {
     letter-spacing: 5px;
     position: absolute;
     z-index: 4; /* Mettre un z-index plus élevé que les layers */
-    bottom: 70%;
+    bottom: 79%;
     left: 38%;
 }
 
@@ -29,7 +29,7 @@ body {
     letter-spacing: 5px;
     position: absolute;
     z-index: 4; /* Mettre un z-index plus élevé que les layers */
-    bottom: 60%;
+    bottom: 58%;
     left: 27%;
 }
 
