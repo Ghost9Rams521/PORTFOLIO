@@ -23,6 +23,7 @@
     z-index: 1; /* Mettre un z-index plus élevé que les layers */
     left: 14%;
     top:  23%;
+    background-color: orange;
 }
   .title-about-me {
     margin: 0;
