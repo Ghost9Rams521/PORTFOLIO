@@ -52,6 +52,8 @@
     border: none;
     cursor: pointer;
     z-index: 1; /* Assurez-vous que les flèches apparaissent au-dessus du carrousel */
+    background-color: whitesmoke;
+    border-radius: 8%;
 }
 
   .arrow.left{
@@ -64,6 +66,8 @@
     border: none;
     cursor: pointer;
     z-index: 1; /* Assurez-vous que les flèches apparaissent au-dessus du carrousel */
+    background-color: whitesmoke;
+    border-radius: 8%;
 }
   .layer-project{
     width: 100%;
@@ -190,7 +194,7 @@
 
 
 
-@media screen and (min-width: 1000px) and (max-width: 1800px) {
+@media screen and (min-width: 1000px) and (max-width: 2000px) {
   .layer-project{
     width: 100%;
     height: 47 vw;
