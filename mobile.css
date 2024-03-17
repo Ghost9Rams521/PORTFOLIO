@@ -1,30 +1,52 @@
-@media screen and (max-width: 1000px) {
-  .main-video  {
-    height: 55vh;
-    line-height: 2px;
-    z-index: -1;
-  }
-  .title{
-    font-size: 5vw; 
-    color: whitesmoke;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 2px;
-    position: absolute;
-    z-index: 1; /* Mettre un z-index plus élevé que les layers*/
-    bottom: 94%;
-    left: 35%;
-  }
-  .sub-title{
-    color: whitesmoke;
-    font-family: 'Oswald', sans-serif;
-    font-size: 2vw; 
-    letter-spacing: 2px;
-    position: absolute;
-    z-index: 1; /* Mettre un z-index plus élevé que les layers */
-    left: 14%;
-    top:  23%;
-    background-color: orange;
+
+@media screen and (min-width: 0px) {
+ #main-header {
+  position: relative;
+  width: 100%;
+  height: 55vh; /* Réglez la hauteur selon vos besoins */
+  overflow: hidden;
 }
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-header {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajustez la vidéo pour remplir l'espace */
+}
+
+
+.title {
+  font-size: 3vw;
+  position: absolute;
+  top: 10%; /* Ajustez cette valeur pour monter ou descendre le titre */
+  left: 32%;
+  font-family: "Battambang", system-ui;
+}
+
+.sub-title {
+  font-size: 2.2vw;
+  position: absolute;
+  top: 5%; /* Ajustez cette valeur pour monter ou descendre le titre */
+  left: 23%;
+  top: 50%;
+  color: whitesmoke;
+  font-family: "Cantarell", sans-serif;
+}
+}
+
+
+@media screen and (max-width: 1000px) {
+  
+  .content h3{
+    background-color: black;
+  }
   .title-about-me {
     margin: 0;
     font-size: 3vw;
@@ -195,6 +217,8 @@
 
 
 @media screen and (min-width: 1000px) and (max-width: 2000px) {
+  
+
   .layer-project{
     width: 100%;
     height: 47 vw;
@@ -228,14 +252,14 @@
     grid-template-columns: repeat(3, 1fr);
   }
   .cv{
-    font-size: 2vw;
+    font-size: 1vw;
     border: 2px solid black;
     border-radius: 24%;
-    width: 55%;
+    width: 20%;
     background-color: red;
     text-align: center;
     float: right;
-    margin-right: 23%;
+    margin-right: 40%;
     cursor: pointer;
 }
   .cv a{
@@ -248,5 +272,111 @@
 }
   .tittle-cv{
     text-align: center;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 2000px) and (max-width: 3000px) {
+  .layer-project{
+    width: 100%;
+    height: 40vw;
+    background-color: rgb(92, 137, 156);
+}
+  .arrow.right{
+    position: absolute;
+    top: 46%;
+    right: 1%;
+    transform: translateY(-50%);
+    font-size: 5vw; /* Ajustez la taille de la police selon vos besoins */
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1; /* Assurez-vous que les flèches apparaissent au-dessus du carrousel */
+}
+
+  .arrow.left{
+    position: absolute;
+    top: 46%;
+    left: 1%;
+    transform: translateY(-50%);
+    font-size: 5vw; /* Ajustez la taille de la police selon vos besoins */
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1; /* Assurez-vous que les flèches apparaissent au-dessus du carrousel */
+}
+  .partie1-contact{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .cv{
+    font-size: 0.8vw;
+    border: 2px solid black;
+    border-radius: 24%;
+    width: 35%;
+    background-color: red;
+    text-align: center;
+    float: right;
+    margin-right: 33%;
+    cursor: pointer;
+}
+  .cv a{
+    text-decoration: none;
+    background-color: whitesmoke;
+    left: 30%;
+}
+  .cv:hover{
+    background-color: orange;
+}
+  .tittle-cv{
+    text-align: center;
+}
+    .carousel-container {
+    position: relative;
+    width: 96%;
+    height: 40vw;
+    left: 2%;
+    right: 2%;
+    overflow: hidden;
+}
+
+.carousel {
+    transition: transform 0.5s ease-in-out;
+    white-space: nowrap; /* Empêcher le retour à la ligne des éléments */
+}
+
+.image-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%; /* Pour afficher trois images par ligne */
+    position: relative;
+}
+
+.image-wrapper {
+    position: relative;
+}
+
+.image-wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 1vw;
+}
+  .carousel-indicators {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
 }
 }

@@ -26,18 +26,7 @@ body {
     z-index: 1;
 }
 
-.sub-title{
-    font-size: 2vw; 
-    color: whitesmoke;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 0.3em;
-    height: 5%;
-    top: 30%;
-    left: 12%;
-    position: absolute;
-    z-index: 1;
-    background-color: yellow;
-}
+
 
 
 
