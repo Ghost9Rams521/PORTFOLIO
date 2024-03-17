@@ -37,15 +37,36 @@
     <div class="layer-project">
         <div class="project"><h1><u>MES PROJETS</u></h1></div>
         <div class="carousel-container">
-            <div class="carousel" id="carousel">   
-                <img src="img-slide3.png" alt="Image 1">
-                <a href="projet.html" target= _blank><img src="img-slide2.png" alt="Image 2"></a>
-                <img src="maquette-1.jpg" alt="Image 3">
+    <div class="carousel" id="carousel">
+        <div class="image-container">
+            <div class="image-wrapper">
+                <img src="maquette-1.jpg" alt="Image 1">
+                <div class="image-text">
+                    <a href="projet.html" target="_BLANK"><h2 id="sub-title-image1">Découvrir</h2></a>
+                </div>
             </div>
-            <div class="arrow left" onclick="prevImage()">←</div>
-            <div class="arrow right" onclick="nextImage()">→</div>
-            <div class="carousel-indicators" id="indicators"></div>
         </div>
+        <div class="image-container">
+            <div class="image-wrapper">
+                <img src="img-slide2.png" alt="Image 2">
+                <div class="image-text">
+                    <a href="projet.html" target="_BLANK"><h2 id="sub-title-image2">Découvrir</h2></a>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-wrapper">
+                <img src="img-slide3.png" alt="Image 3">
+                <div class="image-text">
+                    <a href="projet.html" target="_BLANK"><h2 id="sub-title-image3">Découvrir</h2></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="arrow left" onclick="prevImage()">←</div>
+    <div class="arrow right" onclick="nextImage()">→</div>
+    <div class="carousel-indicators" id="indicators"></div>
+</div>
     </div>
 
 
@@ -72,3 +93,5 @@
     <script src="app-2.js"></script>
 </body>
 </html>
+
+    

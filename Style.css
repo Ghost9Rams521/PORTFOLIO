@@ -93,33 +93,47 @@ body {
 
 .carousel-container {
     position: relative;
-    width: 95%;
+    width: 96%;
     height: 40vw;
     left: 2%;
     right: 2%;
     overflow: hidden;
-
 }
-
 
 .carousel {
-    display: flex;
     transition: transform 0.5s ease-in-out;
+    white-space: nowrap; /* Empêcher le retour à la ligne des éléments */
 }
 
-/* dimension de l'image dans la fenetre  */
-
-.carousel img {
-    width: 100%;
+.image-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%; /* Pour afficher trois images par ligne */
     position: relative;
-    display: flex;
 }
 
-/* dimension et position de la fleche  */
-
-.arrow {
-
+.image-wrapper {
+    position: relative;
 }
+
+.image-wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 1vw;
+    background-color: blueviolet;
+}
+
+.image-text a{
+    text-decoration: none !important;
+}
+
+
 
 /*.arrow.left {
     left: 10px;
