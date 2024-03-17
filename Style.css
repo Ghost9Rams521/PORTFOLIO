@@ -134,37 +134,6 @@ body {
 }
 
 
-
-/*.arrow.left {
-    left: 10px;
-    position: absolute;
-    top: 50%;
-    width: 60px;
-    transform: translateY(-50%);
-    height: 60px;
-    color: black;
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.arrow.right {
-    right: 10px;
-    position: absolute;
-    top: 40.5%;
-    width: 60px;
-    transform: translateY(0%);
-    height: 60px;
-    color: black;
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}*/
-
 .arrow.right{
     position: absolute;
     top: 60%;
