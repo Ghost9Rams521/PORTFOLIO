@@ -1,5 +1,49 @@
+@media screen and (min-width: 0px) and (max-width: 650px) {
+ #main-header {
+  position: relative;
+  width: 100%;
+  height: 30vh; /* Réglez la hauteur selon vos besoins */
+  overflow: hidden;
+}
 
-@media screen and (min-width: 0px) {
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-header {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajustez la vidéo pour remplir l'espace */
+}
+
+
+.title {
+  font-size: 3vw;
+  position: absolute;
+  top: 10%; /* Ajustez cette valeur pour monter ou descendre le titre */
+  left: 32%;
+  font-family: "Battambang", system-ui;
+}
+
+.sub-title {
+  font-size: 2.2vw;
+  position: absolute;
+  top: 5%; /* Ajustez cette valeur pour monter ou descendre le titre */
+  left: 23%;
+  top: 50%;
+  color: whitesmoke;
+  font-family: "Cantarell", sans-serif;
+}
+}
+
+
+
+
+@media screen and (min-width: 650px) {
  #main-header {
   position: relative;
   width: 100%;
