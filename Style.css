@@ -123,20 +123,26 @@ body {
 
 .image-text {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
-    font-size: 1vw;
-    background-color: blueviolet;
+    bottom: 5%;
+    left: 10%;    font-size: 1vw;
+    background-color: rgb(186, 196, 147);
+    border-radius: 34%;
+    width: 10%;
+    border: 2px solid black;
+}
+
+.image-text:hover{
+    background-color: yellow;
 }
 
 .image-text a{
-    text-decoration: none !important;
+    text-decoration: none ;
 }
 
 
 .arrow.right{
     position: absolute;
-    top: 60%;
+    top: 46%;
     right: 1%;
     transform: translateY(-50%);
     font-size: 3vw; /* Ajustez la taille de la police selon vos besoins */
@@ -216,36 +222,7 @@ body {
     margin-left: 17%;
 }
 
-.partie2-contact{
-    width: 100%;
-}
 
-.cv{
-    text-align: center;
-    margin-top: 7%;
-    height: 100px;
-    margin-left: 40%;
-    margin-right: 40%;
-    padding: 1%;
-    font-size: 140%;
-}
-
-.cv a{
-    border: 2px solid rgb(104, 56, 179);
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-
-.cv a:hover{
-    color: orange;
-}
-
-
-.right{
-    margin: 0;
-    bottom: 3%;
-}
 
 
 .parallax-container {
