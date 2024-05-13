@@ -76,7 +76,7 @@ body {
 
 .project{
     text-align: center;
-    font-size: 120%;
+    font-size: 1.5vw;
 }
 
 
@@ -183,11 +183,12 @@ body {
 
 .layer-contact{
     height: 25vh;
+    width: 100%;
 }
 
 .contact{
     text-align: center;
-    font-size: 120%;
+    font-size: 1.5vw;
 }
 
 .partie1-contact{
@@ -214,6 +215,15 @@ body {
 
 
 
+
+
+
+
+#deuxieme-page{
+    background-color: whitesmoke;
+}
+
+
 .parallax-container {
     height: 100vh;
     width: 100%;
@@ -230,27 +240,123 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    width: 100%;
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
     position: relative;
 }
 
 #layer1 {
-    background-image: url('img-1.png');
-    opacity: 0.75;
+    background-image: url('kart.jpg');
+    opacity: 0.9;
+    z-index: 3;
+}
+                                    /*Change la police d'écriture
+                                    Trouve du texte pour expliquer ce que ta fait petit-titre
+                                    échange les couleur quand on passe dessus le texte est blanc et le fond est noir
+                                    mais une transition partant du bas vers le haut
+                                    mais une apparation du texte quand tu vient sur la prochaine img*/
+
+#titre h1{
+    font-family: ;
+    position: absolute;
+    top: 0vh;
+    left: 35vw;
+    font-size: 3vw;
     z-index: 3;
 }
 
+
+#petit-titre1 p{
+    font-family: "Rubik", sans-serif;
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+    font-size: 1.5vw;
+    z-index: 3;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: font-size 0.2s ease;
+}
+
+
+#petit-titre1 p:hover {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.6vw;
+    color: whitesmoke;
+    background-color: black;
+}
+
+
+#petit-titre2 p{
+    font-family: "Rubik", sans-serif;
+    position: absolute;
+    top: 7vh;
+    left: 75vw;
+    font-size: 1.5vw;
+    z-index: 3;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: font-size 0.2s ease;
+}
+
+#petit-titre2 p:hover {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.6vw;
+    color: whitesmoke;
+    background-color: black;
+}
+
+
+
+
+
+
 #layer2 {
-    background-image: url('img-2.jpg');
-    opacity: 0.6;
+    background-image: url('kart_gauche.jpg');
+    opacity: 0.9;
     z-index: 2;
 }
 
+
+#layer2-petit-titre1 p{
+    font-family: "Rubik", sans-serif;
+    position: absolute;
+    top: 105vh;
+    left: 5vw;
+    font-size: 1.5vw;
+    z-index: 3;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: font-size 0.2s ease;
+}
+
+#layer2-petit-titre1 p:hover {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.6vw;
+    color: whitesmoke;
+    background-color: black;
+}
+
+
+
+
+
+
 #layer3 {
-    background-image: url('img-3.jpg');
-    opacity: 0.6;
+    background-image: url('kart_droite.jpg');
+    opacity: 0.9;
     z-index: 1;
-} 
+}
+
+
+
+
+#layer4 {
+    background-image: url('kart_devant.jpg');
+    opacity: 0.9;
+    z-index: 1;
+}
+
 
 
 

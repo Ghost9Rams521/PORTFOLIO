@@ -1,3 +1,26 @@
+
+@media screen and (max-width: 1000px){
+  footer{
+    margin-top: 28%;
+    margin-left: 40%;
+  }
+  footer h4{
+    font-size: 2vw;
+  }
+}
+
+
+@media screen and (min-width: 1000px) {
+  footer{
+    left: 40%;
+  }
+  footer h4{
+    width: 20%;
+    margin-left: 40%;
+  }
+} 
+
+
 @media screen and (min-width: 0px) and (max-width: 650px) {
  #main-header {
   position: relative;
@@ -242,14 +265,11 @@
   .cv:hover{
     background-color: orange;
 }
+
   .tittle-cv{
     text-align: center;
 }
   
-  .sub-title-right{
-    background-color: whitesmoke;
-  }
-
 
 
 } 
