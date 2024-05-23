@@ -246,7 +246,7 @@ body {
 }
 
 #layer1 {
-    background-image: url('kart.jpg');
+    background-image: url('kart.JPG');
     opacity: 0.9;
     z-index: 3;
 }
@@ -312,7 +312,7 @@ body {
 
 
 #layer2 {
-    background-image: url('kart_gauche.jpg');
+    background-image: url('kart_gauche.JPG');
     opacity: 0.9;
     z-index: 2;
 }
@@ -352,7 +352,7 @@ body {
 
 
 #layer4 {
-    background-image: url('kart_devant.jpg');
+    background-image: url('kart_devant.JPG');
     opacity: 0.9;
     z-index: 1;
 }
