@@ -246,11 +246,17 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: 100%;
-    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    width: 100;
+    transition: filter 0.5s ease-in-out, opacity 0.5s ease-in-out;
     position: relative;
+    filter: blur(10px); /* Pour s'assurer que l'image est nette initialement */
+    opacity: 0.5; /* Réduisez l'opacité si nécessaire */
 }
 
+.parallax-layer.visible {
+    filter: blur(0); /* Ajoutez un flou lorsque l'élément est visible */
+    opacity: 1; /* Réduisez l'opacité si nécessaire */
+}
 
 
 
@@ -269,7 +275,9 @@ body {
                                     Trouve du texte pour expliquer ce que ta fait petit-titre
                                     échange les couleur quand on passe dessus le texte est blanc et le fond est noir
                                     mais une transition partant du bas vers le haut
-                                    mais une apparation du texte quand tu vient sur la prochaine img*/
+                                    mais une apparation du texte quand tu vient sur la prochaine img
+                                    Pb : Tes img en background met les en Img comme la vidéo, ainsi tu met toute tes variable dans la section de ton img et tout se floute */
+
 
 #titre h1{
     font-family: ;
@@ -304,9 +312,11 @@ body {
 }
 
 
+
+
 .text-element {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(20px);
     transition: opacity 1s ease, transform 1s ease;
     z-index: 3;
 }
@@ -316,7 +326,6 @@ body {
     transform: translateY(0);
     z-index: 3;
 }
-
 
 
 
@@ -429,7 +438,7 @@ body {
     text-align: center; /* Centrer le texte */
     word-wrap: break-word; /* Permet au texte de passer à la ligne */
     padding: 10px; /* Ajuste le padding pour le texte */
-    z-index: 2;
+    z-index: 7;
     border: 2px solid black;
     border-radius: 5%;
 }
