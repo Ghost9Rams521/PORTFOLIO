@@ -22,7 +22,7 @@ function showImage(index) {
 
     var translateValue = -index * 100 + "%";
     carousel.style.transform = "translateY(" + translateValue + ")";
-}*/
+}
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -57,5 +57,23 @@ document.addEventListener("DOMContentLoaded", function () {
             behavior: "smooth"
         });
     }
-});
+});*/
 
+document.addEventListener("DOMContentLoaded", function() {
+    const textElements = document.querySelectorAll('.text-element');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    textElements.forEach(element => {
+        observer.observe(element);
+    });
+});

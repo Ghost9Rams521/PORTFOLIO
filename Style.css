@@ -219,6 +219,12 @@ body {
 
 
 
+
+
+
+
+
+
 #deuxieme-page{
     background-color: whitesmoke;
 }
@@ -245,10 +251,19 @@ body {
     position: relative;
 }
 
+
+
+
+
+
+
+
+
+
 #layer1 {
     background-image: url('kart.JPG');
     opacity: 0.9;
-    z-index: 3;
+    z-index: 1;
 }
                                     /*Change la police d'écriture
                                     Trouve du texte pour expliquer ce que ta fait petit-titre
@@ -259,7 +274,7 @@ body {
 #titre h1{
     font-family: ;
     position: absolute;
-    top: 0vh;
+    top: vh;
     left: 35vw;
     font-size: 3vw;
     z-index: 3;
@@ -280,6 +295,32 @@ body {
     z-index: 3;
     transition: font-size 0.2s ease;
 }
+
+
+
+#layer1, #layer2, #layer3, #layer4, #layer5, #layer6 {
+    background-size: cover;
+    background-position: center;
+}
+
+
+.text-element {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+    z-index: 3;
+}
+
+.text-element.visible {
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 3;
+}
+
+
+
+
+
 
 
 #petit-titre1 p:hover {
@@ -342,7 +383,7 @@ body {
 #layer2-petit-titre1 p{
     font-family: "Rubik", sans-serif;
     position: absolute;
-    top: 105vh;
+    top: 5vh;
     left: 5vw;
     font-size: 1.5vw;
     z-index: 3;
@@ -469,7 +510,7 @@ body {
 #layer3-petit-titre1 p{
     font-family: "Rubik", sans-serif;
     position: absolute;
-    top: 200vh;
+    top: 0vh;
     left: 20vw;
     right: 1vw;
     font-size: 1.5vw;
@@ -500,7 +541,7 @@ body {
 #layer3-petit-titre2 p{
     font-family: "Rubik", sans-serif;
     position: absolute;
-    top: 225vh;
+    top: 25vh;
     left: 40vw;
     right: 1vw;
     font-size: 1.5vw;
