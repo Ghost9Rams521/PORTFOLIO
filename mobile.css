@@ -379,11 +379,13 @@
     left: 30%;
 }
   .cv:hover{
-    background-color: orange;
+    background-color: purple;
 }
   .tittle-cv{
     text-align: center;
+    background-color: whitesmoke;
 }
+
 }
 
 
